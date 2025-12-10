@@ -1,0 +1,46 @@
+Dataset Description:
+
+The dataset consists of ~15,000 SERS spectra collected from:
+
+5 MRSA isolates
+
+5 ERSA isolates
+
+5 SSA isolates
+
+Each isolate contributes ~1,000 spectra.
+
+Spectral Range 400–1800 cm⁻¹
+
+818 Raman shift positions
+
+
+File Format
+
+Each .csv file contains:
+
+Rows: individual spectra
+
+Columns: Raman intensities for each wavenumber
+
+Experimental Workflow
+
+Clinical isolates collected from patient blood cultures
+
+Standard culturing on blood agar (24 h, 37°C)
+
+Washing and mixing with Lee–Meisel silver nanoparticles (AgNPs)
+
+Deposition on CaF₂ slides
+
+SERS acquisition using WiTec alpha M+ Raman microscope
+
+Preprocessing:
+
+Cosmic ray removal
+
+Baseline subtraction
+
+Savitzky–Golay smoothing
+
+Min–Max normalization
